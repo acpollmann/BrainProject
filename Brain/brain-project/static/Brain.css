@@ -1,0 +1,20 @@
+a{
+ color:white;
+}
+nav{
+    text-align: center;
+}
+
+img{
+   float: left;
+
+}
+div{
+    display:block;
+}
+footer{
+    display: block;
+}
+html {
+  background: linear-gradient(#993399 0%, #ffff99 82%);
+}
