@@ -8,7 +8,8 @@ class PagePost():
         return "<a href='brain?page_id=" + str(page_id) + "'>" + self.title + "</a>"
 
 page_list = [
-    PagePost ("HOME", """<h1>Click on sections of the brain to watch it closer:</h1>
+    PagePost ("HOME", """<h4 style="color:White">Whether your studying Psychology or Medicine, this site will inform you about parts of the brain.
+    Learning and remmbering parts of the brain can be tricky. Enjoy this interactive digital brian map! Use it to your studying advantages!</h4>
 
 
     <img src="https://lh3.google.com/u/0/d/0B1sf9FkLScdDVVhmZkhyTFNOMG8=w2880-h1564-iv1" alt="" usemap="#Map" />
@@ -106,15 +107,27 @@ style="width:250px;height:270px;">
 <!DOCTYPE html>
 <html>
 <head>
+<script src="//use.edgefonts.net/changa-one.js"></script>
+<div>svg filters</div>
 <link rel = 'stylesheet' href = 'resources/Brain.css'>
 <meta charset="UTF-8">
 <title>Information</title>
 </head>
-<body style= "background-color:silver;background-image:none;">
+<body style=
+  "color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: changa-one, sans-serif;
+  font-size: 25px;
+  margin-top: 160px;
+  background-color: #03031A;
+  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=;">
+
 <h2><em>Citations</em></h2>
 <h4>"BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.</h4>
 <h4>"Cognitive Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.</h4>
 <h4>Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.</h4>
+
 </body>
 </html>
  """)
