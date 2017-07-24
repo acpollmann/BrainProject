@@ -49,3 +49,7 @@ p{
 body{
   background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
 }
+
+#area2:hover {
+  opacity: 0.2;
+}
