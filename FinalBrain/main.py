@@ -16,6 +16,7 @@
 #
 import webapp2
 import jinja2
+import json
 import os
 import sys
 
@@ -40,6 +41,13 @@ class MainHandler(webapp2.RequestHandler):
         }
         self.response.out.write(template.render(template_variables))
 
+    def post(self):
+        # Get the data out of the json object
+        part = self.request.get("brain_part");
+        return_data = { "message" : part}
+        self.response.write(json.dumps(return_data));
+
+        
 class PostHandler(webapp2.RequestHandler):
     def get(self):
         # This creates and serves the blog post page
