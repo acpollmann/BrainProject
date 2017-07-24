@@ -15,7 +15,39 @@ function callAction(area) {
 }
 */
 // pill.js: Methods for handling pill requests
-function sendPart(brain_message) {
+function setupHandlers(){
+  $('#temporal_lobe').click(sendTemp);
+  $('#frontal_lobe').click(sendFront);
+  $('#parietal_lobe').click(sendPar);
+  $('#occipital_lobe').click(sendOcc);
+  $('#cerebellum').click(sendCere);
+  $('#spinal_cord').click(sendSpin);
+}
+
+function sendTemp(){
+/*$(this).attr('id')*/
+$('#explanation').text('Temporal Lobe')
+}
+function sendFront(){
+$('#explanation').text('Frontal Lobe')
+}
+function sendPar(){
+$('#explanation').text('Parietal Lobe')
+}
+function sendOcc(){
+  $('#explanation').text('Occipital Lobe')
+
+}
+function sendCere(){
+  $('#explanation').text('Cerebellum')
+}
+function sendSpin(){
+  $('#explanation').text('Spinal Cord')
+}
+
+$(document).ready(setupHandlers)
+
+/*function sendPart(brain_message) {
   // Tell jQuery to POST a message
   $.post("/", {"brain_part": brain_message}, function(data) {
     addTextToPage(JSON.parse(data).message);
@@ -46,4 +78,4 @@ function setupHandlers() {
   $('#frontal_lobe').on('click', sendFrontalLobe);
 }
 
-$(document).ready(setupHandlers);
+$(document).ready(setupHandlers);*/
