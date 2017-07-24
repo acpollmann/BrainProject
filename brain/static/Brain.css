@@ -1,0 +1,36 @@
+a{
+ color:white;
+
+ text-decoration: none;
+}
+nav{
+    text-align: center;
+}
+
+img{
+   float: left;
+
+}
+div{
+    display:block;
+}
+footer{
+    display: block;
+}
+
+
+hr{
+  border-color: black;
+}
+a.news{
+  text-align: center;
+  text-decoration: none;
+}
+.content{
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+}
+.show-more{
+  text-decoration: none;
+}
