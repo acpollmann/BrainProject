@@ -122,7 +122,8 @@ style="width:250px;height:270px;">
 </body>
 </html>
 """),
-    PagePost ("NEWS", "news"),
+    PagePost ("NEWS", """<div class = 'content'><a class = 'news' href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'><h2>What Exactly Is Brain Freeze And How Do I Make It Stop?</h2></a>
+  </div>"""),
     PagePost ("ABOUT THE CREATORS", "This is about us."),
     PagePost ("REFERENCES", """
 <!DOCTYPE html>
