@@ -58,6 +58,8 @@ class PostHandler(webapp2.RequestHandler):
                               "content": page_post.content}
         self.response.out.write(template.render(template_variables))
 
+
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/brain', PostHandler)

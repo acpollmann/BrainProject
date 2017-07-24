@@ -44,7 +44,10 @@ h1{
 }
 p{
   text-align: center;
-  color: black;
+  color: white;
+}
+#homepage{
+  background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
 }
 body{
   background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
