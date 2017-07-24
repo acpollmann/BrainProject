@@ -63,7 +63,7 @@ style="width:250px;height:270px;">
     <p style="color:yellow;"> rules of behavior may be disregarded.</p>
 </div>
 <div style="background-color:orange;">
-    <center><h2 style="color:White">Occipital Lobe</h2></center>
+    <center><h2 style="color:SeaGreen">Occipital Lobe</h2></center>
     <img src="http://brainmadesimple.com/uploads/7/8/8/5/7885523/_5203909.jpg" alt="Mountain View"
     style="width:170px;height:200px;">
     <p style="color:purple;">Injury to this area usually results in "blindness" to part or all of the visual field. </p><br>
@@ -71,15 +71,31 @@ style="width:250px;height:270px;">
     <p style="color:purple;">There may be problems picking things out of space or they may misperceive pictures or objects.</p><br>
     <p style="color:purple;">Recognition of colors may also be disturbed.</p>
      </div>
-<div style="background-color:o;">
-    <center><h2 style="color:White">Occipital Lobe</h2></center>
-    <img src="http://brainmadesimple.com/uploads/7/8/8/5/7885523/_5203909.jpg" alt="Mountain View"
-    style="width:170px;height:200px;">
-    <p style="color:purple;">Injury to this area usually results in "blindness" to part or all of the visual field. </p><br>
-    <p style="color:purple;">Usually people experience "holes" or "blind spots"in what they see. </p><br>
-    <p style="color:purple;">There may be problems picking things out of space or they may misperceive pictures or objects.</p><br>
-    <p style="color:purple;">Recognition of colors may also be disturbed.</p>
+<div style="background-color:DarkRed;">
+    <center><h2 style="color:White">Temporal Lobe</h2></center>
+    <img src="http://www.neuroskills.com/images/templobe11.jpg" alt="Mountain View"
+    style="width:200px;height:300px;">
+        <p style="color:silver;">The temporal lobe perceives and recognizes verbal material. </p><br>
+        <p style="color:silver;">It is among the most frequently injured parts of the brain during head injury. </p><br>
+        <p style="color:silver;">A person may have difficulty screening out distractions.</p><br>
+        <p style="color:silver;">Injury to the upper temporal area can cause someone to misunderstand what is said. </p><br>
+        <p style="color:silver;">They may make sounds like words but which are not recognizable as words at all. </p><br>
+        <p style="color:silver;">They may also misunderstand body language. Emotional changes such as unexplained panic </p><br>
+        <p style="color:silver;">or unexpected tearfulness may be noted. Left temporal area includes production of speech, </p><br>
+        <p style="color:silver;">naming and verbal memory. The right temporal area includes musical abilities, foreign </p><br>
+        <<p style="color:silver;">languages, visual memory, and comprehension of the environment.</p>
+
      </div>
+<div style="background-color:LightBlue;">
+         <center><h2 style="color:OrangeRed">BrainStem</h2></center>
+         <img src="http://www.neuroskills.com/images/brainstem11.jpg" alt="Mountain View"
+         style="width:200px;height:250px;">
+         <p style="color:Navy;">The brain stem plays a vital role in basic attention, arousal, and consciousness.</p><br>
+         <p style="color:Navy;">All information to and from our body passes through the brain
+         <p style="color:Navy;">stem on the way to or from our brain.</p><br>
+          <p style="color:Navy;">Like the frontal and temporal lobes, the brain stem is </p><br>
+          <p style="color:Navy;">located in an area near bony protrusions making</p><br>
+          <p style="color:Navy;">it vulnerable to damage during trauma.</p>
 
 </body>
 </html>
