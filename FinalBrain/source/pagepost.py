@@ -102,5 +102,20 @@ style="width:250px;height:270px;">
 """),
     PagePost ("NEWS", "news"),
     PagePost ("ABOUT THE CREATORS", "This is about us."),
-    PagePost ("REFERENCES", "This is our citations. ")
+    PagePost ("REFERENCES", """
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = 'stylesheet' href = 'resources/Brain.css'>
+<meta charset="UTF-8">
+<title>Information</title>
+</head>
+<body style= "background-color:silver;background-image:none;">
+<h2><em>Citations</em></h2>
+<h4>"BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.</h4>
+<h4>"Cognitive Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.</h4>
+<h4>Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.</h4>
+</body>
+</html>
+ """)
 ]
