@@ -40,9 +40,9 @@ page_list = [
 
 
     <img src="https://lh3.google.com/u/0/d/0B1sf9FkLScdDVVhmZkhyTFNOMG8=w2880-h1564-iv1" alt="" usemap="#Map" />
-    <div  class = 'description'>
-      <h2>BIG BRAIN!!</h2>
-      <p>This is a Brain.</p>
+    <div class="topcorner"= 'description'>
+      <center><h2 style="color:orange;">BIG BRAIN!!</h2></center>
+
       <p id= "explanation" >The brain is one of the largest and most complex organs in the human body. It is made up of more than 100 billion nerves that communicate in trillions of connections called synapses. The brain is made up of many specialized areas that work together: The cortex is the outermost layer of brain cells.</p>
       <p id = 'temporal' style = 'display: none;'>The Temporal Lobe mainly revolves around hearing and selective listening. It receives sensory information such as sounds and speech from the ears. It is also key to being able to comprehend, or understand meaningful speech. In fact, we would not be able to understand someone talking to us, if it wasn't for the temporal lobe. This lobe is special because it makes sense of the all the different sounds and pitches (different types of sound) being transmitted from the sensory receptors of the ears.</p>
     <p id = 'frontal' style = 'display: none;'>You use your frontal lobe nearly everyday. You use it to make decisions, such as what to eat or drink for breakfast in the morning, as well as for thinking or studying for a test. The frontal lobe is also where our personality is formed and where we can carry out higher mental processes such as planning. In addition, the frontal lobe is necessary to being able to speak fluently (without fault) and meaningfully.</p>
@@ -72,61 +72,74 @@ page_list = [
 
 <h1>Information About the brain</h1>
 <center><h2 style= "background: linear-gradient(to bottom, #ccff33 0%, #ff99cc 100%);">Whats To Know?</h2></center>
-<div style="background-color:CornflowerBlue;">
+<div style="background-color:CornflowerBlue; overflow:auto;">
 <center><h2 style="color:DeepPink">Cerebellum</h2></center>
-<img src="http://www.daviddarling.info/images/cerebellum.jpg" alt="Mountain View"
-style="width:250px;height:270px;">
-    <p style="color:yellow;">The Cerebellum: The cerebellum, or "little brain",</p><br>
-    <p style="color:yellow;">is similar to the cerebrum in that it has two hemispheres</p><br>
-    <p style="color:yellow;"> and has a highly is similar to the cerebrum in that it has two hemispheres and has a highly is similar to </p><br>
-    <p style="color:yellow;">folded surface or cortex. This structure is associated with regulation </p><br>
-    <p style="color:yellow;">and coordination of movement, posture, and balance.</p>
+    <img src="http://www.daviddarling.info/images/cerebellum.jpg" alt="Mountain View"
+    style="width:250px;height:270px;">
+    <p class="center_in_page" style="color:yellow;">The Cerebellum: The cerebellum, or "little brain",</p><br>
+    <p class="center_in_page" style="color:yellow;">is similar to the cerebrum in that it has two hemispheres.</p><br>
+
+    <p class="center_in_page" style="color:yellow;">Obtaining a general understanding of the brain and its functions is important </p><br>
+    <p class="center_in_page" style="color:yellow;">to understanding the rehabilitation process. It is very important, however, </p><br>
+    <p class="center_in_page" style="color:yellow;">to understand that the rehabilitation professional is concerned with the whole person.</p><br>
+     <p class="center_in_page" style="color:yellow;">The identification of individual problems gives the rehabilitation team areas in </p><br>
+     <p class="center_in_page" style="color:yellow;">which to focus treatment plans, all of these plans are designed to work toward the </p><br>
+     <p class="center_in_page" style="color:yellow;">rehabilitation of the whole person. Each problem area affects other areas and many </p><br>
+     <p class="center_in_page" style="color:yellow;">times resolving one problem has a major impact on other problems. For example, reestablishing </p><br>
+     <p class="center_in_page" style="color:yellow;">postural balance and eliminating dizziness greatly enhances concentration and attention which </p><br>
+     <p class="center_in_page" style="color:yellow;">allows for improved cognition and problem solving.</p>
 </div>
-<div style="background-color:DeepPink;">
+<div style="background-color:DeepPink;overflow:auto;">
 <center><h2 style="color:White">Frontal Lobe</h2></center>
 <img src="https://www.neuroskills.com/images/frontlobe11.jpg" alt="Mountain View"
 style="width:250px;height:270px;">
-    <p style="color:yellow;">The frontal lobe links and integrates all components of behavior at the highest</p><br>
-    <p style="color:yellow;">level. Emotion and social adjustment and impulse control are also localized here.</p><br>
-    <p style="color:yellow;">Injury to parts of the frontal lobe may cause an inability to move part of the</p><br>
-    <p style="color:yellow;">body or the whole side of the body. Speech may become halting, disorganized or</p><br>
-    <p style="color:yellow;"> be stopped except for single explosive words. Personality may change. Social</p><br>
-    <p style="color:yellow;"> rules of behavior may be disregarded.</p>
+    <p class="center_in_page"style="color:yellow;">The frontal lobe links and integrates all components of behavior at the highest</p><br>
+    <p class="center_in_page" style="color:yellow;">level. Emotion and social adjustment and impulse control are also localized here.</p><br>
+    <p class="center_in_page" style="color:yellow;">Injury to parts of the frontal lobe may cause an inability to move part of the</p><br>
+    <p class="center_in_page"style="color:yellow;">body or the whole side of the body. Speech may become halting, disorganized or</p><br>
+    <p class="center_in_page" style="color:yellow;"> be stopped except for single explosive words. Personality may change. Social</p><br>
+    <p class="center_in_page" style="color:yellow;"> rules of behavior may be disregarded.</p>
 </div>
-<div style="background-color:orange;">
+<div style="background-color:orange;overflow:auto;">
     <center><h2 style="color:SeaGreen">Occipital Lobe</h2></center>
     <img src="http://brainmadesimple.com/uploads/7/8/8/5/7885523/_5203909.jpg" alt="Mountain View"
-    style="width:170px;height:200px;">
-    <p style="color:purple;">Injury to this area usually results in "blindness" to part or all of the visual field. </p><br>
-    <p style="color:purple;">Usually people experience "holes" or "blind spots"in what they see. </p><br>
-    <p style="color:purple;">There may be problems picking things out of space or they may misperceive pictures or objects.</p><br>
-    <p style="color:purple;">Recognition of colors may also be disturbed.</p>
-     </div>
-<div style="background-color:DarkRed;">
-    <center><h2 style="color:White">Temporal Lobe</h2></center>
-    <img src="http://www.neuroskills.com/images/templobe11.jpg" alt="Mountain View"
-    style="width:200px;height:300px;">
-        <p style="color:silver;">The temporal lobe perceives and recognizes verbal material. </p><br>
-        <p style="color:silver;">It is among the most frequently injured parts of the brain during head injury. </p><br>
-        <p style="color:silver;">A person may have difficulty screening out distractions.</p><br>
-        <p style="color:silver;">Injury to the upper temporal area can cause someone to misunderstand what is said. </p><br>
-        <p style="color:silver;">They may make sounds like words but which are not recognizable as words at all. </p><br>
-        <p style="color:silver;">They may also misunderstand body language. Emotional changes such as unexplained panic </p><br>
-        <p style="color:silver;">or unexpected tearfulness may be noted. Left temporal area includes production of speech, </p><br>
-        <p style="color:silver;">naming and verbal memory. The right temporal area includes musical abilities, foreign </p><br>
-        <<p style="color:silver;">languages, visual memory, and comprehension of the environment.</p>
+    style="width:270px;height:150px;">
+
+
+    <p class="center_in_page" style="color:purple;">Injury to this area usually results in "blindness" to part or all of the visual field. </p><br>
+    <p class="center_in_page" style="color:purple;">Usually people experience "holes" or "blind spots"in what they see.</p><br>
+    <p class="center_in_page" style="color:purple;">There may be problems picking things out of space or they may misperceive pictures or objects.</p><br>
+    <p class="center_in_page" style="color:purple;">Recognition of colors may also be disturbed.</p>
 
      </div>
-<div style="background-color:LightBlue;">
+<div style="background-color:DarkRed;overflow:auto;">
+    <center><h2 style="color:White">Temporal Lobe</h2></center>
+    <img src="http://www.neuroskills.com/images/templobe11.jpg" alt="Mountain View"
+    style="width:250px;height:270px;">
+
+        <p class="center_in_page"style="color:silver;">The temporal lobe perceives and recognizes verbal material. </p><br>
+        <p class="center_in_page" style="color:silver;">It is among the most frequently injured parts of the brain during head injury. </p><br>
+        <p class="center_in_page" style="color:silver;">A person may have difficulty screening out distractions.</p><br>
+        <p class="center_in_page" style="color:silver;">Injury to the upper temporal area can cause someone to misunderstand what is said. </p><br>
+        <p class="center_in_page" style="color:silver;">They may make sounds like words but which are not recognizable as words at all. </p><br>
+        <p class="center_in_page" style="color:silver;">They may also misunderstand body language. Emotional changes such as unexplained panic </p><br>
+        <p class="center_in_page" style="color:silver;">or unexpected tearfulness may be noted. Left temporal area includes production of speech, </p><br>
+        <p class="center_in_page" style="color:silver;">naming and verbal memory. The right temporal area includes musical abilities, foreign </p><br>
+        <p class="center_in_page" style="color:silver;">languages, visual memory, and comprehension of the environment.</p>
+
+     </div>
+<div style="background-color:LightBlue;overflow:auto;">
          <center><h2 style="color:OrangeRed">BrainStem</h2></center>
          <img src="http://www.neuroskills.com/images/brainstem11.jpg" alt="Mountain View"
-         style="width:200px;height:250px;">
-         <p style="color:Navy;">The brain stem plays a vital role in basic attention, arousal, and consciousness.</p><br>
-         <p style="color:Navy;">All information to and from our body passes through the brain
-         <p style="color:Navy;">stem on the way to or from our brain.</p><br>
-          <p style="color:Navy;">Like the frontal and temporal lobes, the brain stem is </p><br>
-          <p style="color:Navy;">located in an area near bony protrusions making</p><br>
-          <p style="color:Navy;">it vulnerable to damage during trauma.</p>
+         style="width:250px;height:270px;">
+
+         <p class="center_in_page"  style="color:Navy;">The brain stem plays a vital role in basic attention, arousal, and consciousness.</p><br>
+         <p class="center_in_page"  style="color:Navy;">All information to and from our body passes through the brain</p><br>
+         <p class="center_in_page"  style="color:Navy;">stem on the way to or from our brain.</p><br>
+          <p class="center_in_page"  style="color:Navy;">Like the frontal and temporal lobes, the brain stem is </p><br>
+          <p class="center_in_page"  style="color:Navy;">located in an area near bony protrusions making</p><br>
+          <p class="center_in_page"  style="color:Navy;">it vulnerable to damage during trauma.</p>
+          </div
 
 </body>
 </html>
@@ -153,27 +166,57 @@ style="width:250px;height:270px;">
 <!DOCTYPE html>
 <html>
 <head>
-<script src="//use.edgefonts.net/changa-one.js"></script>
+
+<body>
 <br><div>Citations</div>
 <link rel = 'stylesheet' href = 'resources/Brain.css'>
 <meta charset="UTF-8">
 <title>Information</title>
 </head>
-<body style=
-  "color: #FFF;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: changa-one, sans-serif;
-  font-size: 25px;
-  margin-top: 160px;
-  background-color: #03031A;
-  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');>
+<div id="intro">
+   <div class="story">
+      <div class="float-left">
 
+      </div>
+   </div>
+   <!--.story-->
+</div>
+<!--#intro-->
+<div id="second">
+   <div class="story">
+      <div class="bg"></div>
+      <div class="float-right">
+         <h2>References</h2>
+         <p>BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.
+         Cognitive Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.
+         Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.
+</p>
 
-<h2><em>Citations</em></h2>
-<h4>"BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.</h4>
-<h4>"Cognitive Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.</h4>
-<h4>Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.</h4>
+      </div>
+   </div>
+   <!--.story-->
+</div>
+<!--#second-->
+<div id="third">
+   <div class="story">
+      <div class="float-left">
+         <h2>Why is The Brain So Amazing?</h2>
+         <p>Your brain contains about 100</p><br>
+         <p>billion microscopic cells </p>
+      </div>
+   </div>
+   <!--.story-->
+</div>
+<!--#third-->
+<script>
+<link href="parallax.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://www.solodev.com/assets/parallax/jquery.localscroll-1.2.7-min.js"></script>
+<script src="https://www.solodev.com/assets/parallax/jquery.parallax-1.1.3.js"></script>
+<script src="https://www.solodev.com/assets/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+<script src="scrolling.js"></script>
+
 
 </body>
 </html>
