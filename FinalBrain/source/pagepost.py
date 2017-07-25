@@ -106,8 +106,23 @@ style="width:250px;height:270px;">
 </body>
 </html>
 """),
-    PagePost ("NEWS", """<div class = 'content'><a class = 'news' href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'><h2>What Exactly Is Brain Freeze And How Do I Make It Stop?</h2></a>
-  </div>"""),
+    PagePost ("NEWS", """<div class = 'content'>
+      <a class = 'news' href ='https://www.theodysseyonline.com/magicians-scientist'><h2>Who's The Real Scientist Here...?</h2></a>
+      <p class = 'news_snippets'>Scientists appear to be traditionally smarter, and experts regarding what's going on in the world. However, magicians seem to have beat them to the catch, by conquering cognitive attention. There must be a distraction to properly fool the fool. Magicians are scientist in a way, by using their skills to trick the viewers. The skills that magicians use to misdirect the spectators, can be useful to Neuroscientist for their own scientific advantage...<span class = 'show-more'><a href = 'https://www.theodysseyonline.com/magicians-scientist'>Read More</a></span>...</p>
+      <hr>
+      <a class = 'news' href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'><h2>What Exactly Is Brain Freeze And How Do I Make It Stop?</h2></a>
+      <p class = 'news_snippets'>It happens to just about everyone: you take a delicious first lick from your ice cream or long sip of a cold slushie, and then bam - your head begins to pound, or pain radiates all through your skull. The pain continues as you shut your eyes and wince, and then it subsides, letting you to go back to enjoying your cold treat again...<span class='show-more'><a href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'>Read More</a></span>...</p>
+      <hr>
+      <a class = 'news' href = 'https://www.forbes.com/sites/daviddisalvo/2016/01/30/study-your-brains-capacity-is-10-times-greater-than-previously-thought/#3e880341528e'><h2>Your Brain's Capacity Is 10 Times Greater Than Previously Thought</h2></a>
+        <p class = 'news_snippets'>All of us are walking around with the capacity of the entire internet in our skulls, according to a recent study on neural computing power. That's about ten times the capacity previously thought to be the brain's upper limit...<span class = 'show-more'><a href = 'https://www.forbes.com/sites/daviddisalvo/2016/01/30/study-your-brains-capacity-is-10-times-greater-than-previously-thought/#3e880341528e'>Read More</a></span>...</p>
+      <hr>
+      <a class = 'news' href = 'http://neurosciencenews.com/order-certinty-orbiotofrontal-cortex-7043/'><h2>Changes In Brain Regions May Explain Why Some Prefer Certainty And Order</h2></a>
+      <p class = 'news_snippets'>Why do some people prefer stable, predictable lives while others prefer frequent changes? Why do some people make rational decisions and others, impulsive and reckless ones? UCLA behavioral neuroscientists have identified changes in two brain regions that may hold answers to these questions...<span class = 'show-more'><a href = 'http://neurosciencenews.com/order-certinty-orbiotofrontal-cortex-7043/'>Read More</a></span>...</p>
+      <hr>
+      <a class = 'news' href = 'https://www.newscientist.com/article/2141467-your-eardrums-move-in-sync-with-your-eyes-but-we-dont-know-why/'><h2>Your Eardrums Move In Sync With Your Eyes But We Don't Know Why</h2></a>
+      <p class = 'news_snippets'>See, hear. Our eardrums appear to move to shift our hearing in the same direction as our eyes are looking. Why this happens is unclear, but it may help us work out which objects we see are responsible for the sounds we can hear...<span class = 'show-more'><a href ='https://www.newscientist.com/article/2141467-your-eardrums-move-in-sync-with-your-eyes-but-we-dont-know-why/'>Read More</a></span>...</p>
+      <hr>
+    </div>"""),
     PagePost ("ABOUT THE CREATORS", "This is about us."),
     PagePost ("REFERENCES", """
 <!DOCTYPE html>

@@ -46,6 +46,10 @@ p{
   text-align: center;
   color: white;
 }
+.news_snippets{
+  font-size: 20px;
+  color: black;
+}
 #homepage{
   background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
 }
