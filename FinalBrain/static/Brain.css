@@ -1,5 +1,5 @@
 a{
- color:black;
+ color:white;
 
  text-decoration: none;
 }
@@ -13,11 +13,6 @@ img{
 }
 div{
     display:block;
-    color:black;
-
-}
-#comment-container{
-  color:black;
 }
 footer{
     display: block;
@@ -65,7 +60,6 @@ body{
 #area2:hover {
   opacity: 0.2;
 }
-
 .center_in_page {
   position: absolute;
   width: 100%;
