@@ -26,23 +26,60 @@ function setupHandlers(){
 
 function sendTemp(){
 /*$(this).attr('id')*/
-$('#explanation').text('Temporal Lobe')
+$('#explanation').css('display', 'none')
+$('#temporal').css('display', 'block')
+$('#frontal').css('display', 'none')
+$('#parietal').css('display', 'none')
+$('#occipital').css('display', 'none')
+$('#cereb').css('display', 'none')
+$('#spinal').css('display', 'none')
+
 }
 function sendFront(){
-$('#explanation').text('Frontal Lobe')
+  $('#explanation').css('display', 'none')
+  $('#temporal').css('display', 'none')
+  $('#frontal').css('display', 'block')
+  $('#parietal').css('display', 'none')
+  $('#occipital').css('display', 'none')
+  $('#cereb').css('display', 'none')
+  $('#spinal').css('display', 'none')
 }
 function sendPar(){
-$('#explanation').text('Parietal Lobe')
+  $('#explanation').css('display', 'none')
+  $('#temporal').css('display', 'none')
+  $('#frontal').css('display', 'none')
+  $('#parietal').css('display', 'block')
+  $('#occipital').css('display', 'none')
+  $('#cereb').css('display', 'none')
+  $('#spinal').css('display', 'none')
 }
 function sendOcc(){
-  $('#explanation').text('Occipital Lobe')
+  $('#explanation').css('display', 'none')
+  $('#temporal').css('display', 'none')
+  $('#frontal').css('display', 'none')
+  $('#parietal').css('display', 'none')
+  $('#occipital').css('display', 'block')
+  $('#cereb').css('display', 'none')
+  $('#spinal').css('display', 'none')
 
 }
 function sendCere(){
-  $('#explanation').text('Cerebellum')
+  $('#explanation').css('display', 'none')
+  $('#temporal').css('display', 'none')
+  $('#frontal').css('display', 'none')
+  $('#parietal').css('display', 'none')
+  $('#occipital').css('display', 'none')
+  $('#cereb').css('display', 'block')
+  $('#spinal').css('display', 'none')
 }
 function sendSpin(){
-  $('#explanation').text('Spinal Cord')
+  $('#explanation').css('display', 'none')
+  $('#temporal').css('display', 'none')
+  $('#frontal').css('display', 'none')
+  $('#parietal').css('display', 'none')
+  $('#occipital').css('display', 'none')
+  $('#cereb').css('display', 'none')
+  $('#spinal').css('display', 'block')
 }
 
 $(document).ready(setupHandlers)
