@@ -114,7 +114,7 @@ style="width:250px;height:270px;">
 <html>
 <head>
 <script src="//use.edgefonts.net/changa-one.js"></script>
-<div>svg filters</div>
+<br><div>Citations</div>
 <link rel = 'stylesheet' href = 'resources/Brain.css'>
 <meta charset="UTF-8">
 <title>Information</title>
