@@ -15,6 +15,18 @@
 <div class = 'content'>
   {{content}}
 </div>
+    <form align='center'  method="post">
+           <label> Your Name: </label> <br>
+           <input type="text" name= "name"/> <br>
+           <label> Leave a Comment: </label> <br>
+           <input type="text" name= "comment"/><br>
+           <input type="submit" value="Post Comment"/>
+    </form>
+
+        <div id = "comment-container">
+          {{comments}}
+        </div>
+
 <footer>
     <p><em>CSSI Production</em></p>
 </footer>

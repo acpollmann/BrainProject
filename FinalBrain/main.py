@@ -47,15 +47,25 @@ class MainHandler(webapp2.RequestHandler):
         return_data = { "message" : part}
         self.response.write(json.dumps(return_data));
 
-        
+
 class PostHandler(webapp2.RequestHandler):
     def get(self):
+        page_id = int(self.request.get('page_id'))
+        self.sendResponse(page_id, None)
+
+    def post(self):
+        page_id = int(self.request.get("page_id"))
+        self.sendResponse(page_id, self.request.get("comment"))
+
+    def sendResponse(self, page_id, new_comment):
         # This creates and serves the blog post page
         template = jinja_environment.get_template('templates/pages.html')
         page_id = int(self.request.get('page_id'))
         page_post = page_list[page_id]
+        commentHTML = page_post.commentsAsHTML(page_id, new_comment)
         template_variables = {"title": page_post.title,
-                              "content": page_post.content}
+                              "content": page_post.content,
+                              "comments": commentHTML}
         self.response.out.write(template.render(template_variables))
 
 
