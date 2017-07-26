@@ -1,10 +1,10 @@
 from google.appengine.ext import ndb
 
-<<<<<<< HEAD
+
 class Data(ndb.Model):
     brain_part = ndb.StringProperty()
     brain_description = ndb.StringProperty()
-=======
+
 class NewsData(ndb.Model):
     news_title = ndb.StringProperty()
     news_preview = ndb.StringProperty()
@@ -31,4 +31,3 @@ def newsAsHTML():
         html_string += " <p class= 'news_snippets' >" + news_item.news_preview + "</p>"
         html_string += "<span class = 'show-more'> <a href=\"" + news_item.news_link + "\"> Read More...</a></span>"
     return html_string
->>>>>>> 24005286f214974c514fdb6c7cb88f8f291fc22a
