@@ -159,25 +159,25 @@ h2{
 }
 
 #intro{
-        background:url("https://cdn-images-1.medium.com/max/1240/1*5OA_mP3k0CepwXGnkpUt_g.jpeg") 50% 0 no-repeat fixed;
+        background:url("http://www.ziptrials.us/wp-content/uploads/2013/03/Neurons.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
-        height: 600px;
+        height: 800px;
         margin: 0;
         padding: 0;
         width: 100%;
 }
-
+/*
 #second{
         background: url("http://sss.ysmu.info/wp-content/uploads/2015/08/neurons-fly-through_3d_model_max_c3082c11-d777-43dc-afd2-7172f7ffb249.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
-        height: 1300px;
+        height: 600px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
         width: 100%;
-        opacity: 0.2;
+        opacity: 1.0;
 }
 
 #second .bg{
@@ -194,7 +194,7 @@ h2{
 }
 
 #third{
-        background: url("http://www.ziptrials.us/wp-content/uploads/2013/03/Neurons.jpg") 50% 0 no-repeat fixed;
+        background: url("https://cdn-images-1.medium.com/max/1240/1*5OA_mP3k0CepwXGnkpUt_g.jpeg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: black;
         height: 650px;
@@ -209,6 +209,7 @@ h2{
         margin: 0 auto;
         padding: 40px 0 0 0;
 }
+*/
 textarea {
     width: 25%;
     height: 150px;
