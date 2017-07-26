@@ -16,27 +16,27 @@ class PagePost():
         comments_data = comments_query.get()
         if comments_data == None:
             if new_comment == None:
-                return "<p> No comments yet </p>"
+                return "<p style=color:black> No comments yet </p>"
             else:
                 comment_list = [ new_comment ]
                 comments_data = CommentsData(comment_page_id = page_id,
                                             comment_string = comment_list)
                 comments_data.put()
-                return "<p>" + new_comment + "</p>"
+                return "<p style=color:black>" + new_comment + "</p>"
         else:
             if new_comment != None:
                 comments_data.comment_string.append(new_comment)
             html_string = ""
             for comment in comments_data.comment_string:
-                html_string += "<p>" + comment + "</p>"
+                html_string += "<p style=color:black>" + comment + "</p>"
             if new_comment != None:
                 comments_data.put()
             return html_string
 
 
 page_list = [
-    PagePost ("HOME", """<h4 style="color:White">Whether your studying Psychology or Medicine, this site will inform you about parts of the brain.
-    Learning and remmbering parts of the brain can be tricky. Enjoy this interactive digital brian map! Use it to your studying advantages!</h4>
+    PagePost ("HOME", """<body id="homepage" ><h4 style="color:White">Whether you're studying Psychology or Medicine, this site will inform you about parts of the brain.
+    Learning and remembering parts of the brain can be tricky. Enjoy this interactive digital brain map! Use it to your studying advantages!</h4>
 
 
     <img src="https://lh3.google.com/u/0/d/0B1sf9FkLScdDVVhmZkhyTFNOMG8=w2880-h1564-iv1" alt="" usemap="#Map" />
@@ -46,7 +46,7 @@ page_list = [
       <p id= "explanation" >The brain is one of the largest and most complex organs in the human body. It is made up of more than 100 billion nerves that communicate in trillions of connections called synapses. The brain is made up of many specialized areas that work together: The cortex is the outermost layer of brain cells.</p>
       <p id = 'temporal' style = 'display: none;'>The Temporal Lobe mainly revolves around hearing and selective listening. It receives sensory information such as sounds and speech from the ears. It is also key to being able to comprehend, or understand meaningful speech. In fact, we would not be able to understand someone talking to us, if it wasn't for the temporal lobe. This lobe is special because it makes sense of the all the different sounds and pitches (different types of sound) being transmitted from the sensory receptors of the ears.</p>
     <p id = 'frontal' style = 'display: none;'>You use your frontal lobe nearly everyday. You use it to make decisions, such as what to eat or drink for breakfast in the morning, as well as for thinking or studying for a test. The frontal lobe is also where our personality is formed and where we can carry out higher mental processes such as planning. In addition, the frontal lobe is necessary to being able to speak fluently (without fault) and meaningfully.</p>
-    <p id = 'parietal' style = 'display: none;'>The parietal lobe carries out some very specific functions. As a part of the cortex, it has a lot of responsibilities and has to be able to process sensory information within seconds. The parietal lobe is where information such as taste, temperature and touch are integrated, or processed. Humans would not be able to to feel sensations of touch, if the parietal lobe was damaged./p>
+    <p id = 'parietal' style = 'display: none;'>The parietal lobe carries out some very specific functions. As a part of the cortex, it has a lot of responsibilities and has to be able to process sensory information within seconds. The parietal lobe is where information such as taste, temperature and touch are integrated, or processed. Humans would not be able to to feel sensations of touch, if the parietal lobe was damaged.</p>
     <p id = 'occipital' style = 'display: none;'>The occiptial lobe is important to being able to correctly understand what your eyes are seeing. These lobes have to be very fast to process the rapid information that our eyes are sending. Similar to how the temporal lobe makes sense of auditory information, the occipital lobe makes sense of visual information so that we are able to understand it. If our occipital lobe was impaired, or injured we would not be able to correctly process visual signals, thus visual confusion would result.</p>
     <p id = 'cereb' style = 'display: none;'>The cerebellum is one of the most identifiable parts of the brain due to its unique shape and location. It is extremely important for being able to perform everyday voluntary (done with purpose and intent) tasks such as walking and writing. It is also essential to being able to stay balanced and upright. Patients who have suffered from damaged cerebellums often struggle with keeping their balance and maintaining proper muscle coordination.</p>
     <p id = 'spinal' style = 'display: none;'>The spinal cord is a complex cylinder of nerves that starts at the base of your brain and runs down the vertebral canal to the backbone. It is part of the body's collection of nerves, called the central nervous system, along with the brain. In each of the spinal cord's many segments lives a pair of roots that are made up of nerve fibers. These roots are referred to as the dorsal and the ventral.</p>
@@ -58,7 +58,7 @@ page_list = [
         <area class = 'mapping' id = 'occipital_lobe' alt="" title="" href="#" shape="poly" coords="881,252,903,265,907,283,921,300,933,331,947,351,957,368,953,381,958,409,952,427,948,444,941,458,931,471,921,483,903,494,878,503,847,504,817,501,794,512,761,510,740,504,733,495,747,487,757,477,773,466,788,431,800,412,815,399,816,389,814,363,811,352,809,335,818,312" />
         <area class = 'mapping' id = 'cerebellum' alt="" title="" href="#" shape="poly" coords="540,559,541,567,545,575,549,596,565,615,576,618,593,631,608,638,624,644,646,653,674,660,701,663,730,658,744,650,763,642,784,632,802,620,808,613,840,592,866,566,871,540,870,518,867,509,838,505,815,506,798,510,775,514,754,509,741,507,721,515,692,525,677,534,622,542,584,547,567,545" />
         <area class = 'mapping' id = 'spinal_cord' alt="" title="" href="#" shape="poly" coords="509,573,528,610,552,622,566,633,581,648,602,672,620,695,656,677,658,673,644,658,641,653,619,643,602,635,585,624,574,617,561,614,551,604,545,583,542,572,538,564,536,562,535,560" />
-    </map>"""),
+    </map></body>"""),
     PagePost ("INFO", """
 <!DOCTYPE html>
 <html>
@@ -67,7 +67,7 @@ page_list = [
 <meta charset="UTF-8">
 <title>Information</title>
 </head>
-<body style= "background-color:DarkMagenta;background-image:none;">
+<body <!--style= "background-color:DarkMagenta;background-image:none;"-->
 
 
 <h1>Information About the brain</h1>
@@ -144,31 +144,13 @@ style="width:250px;height:270px;">
 </body>
 </html>
 """),
-    PagePost ("NEWS", """<div class = 'content'>
-      <a class = 'news' href ='https://www.theodysseyonline.com/magicians-scientist'><h2>Who's The Real Scientist Here...?</h2></a>
-      <p class = 'news_snippets'>Scientists appear to be traditionally smarter, and experts regarding what's going on in the world. However, magicians seem to have beat them to the catch, by conquering cognitive attention. There must be a distraction to properly fool the fool. Magicians are scientist in a way, by using their skills to trick the viewers. The skills that magicians use to misdirect the spectators, can be useful to Neuroscientist for their own scientific advantage...<span class = 'show-more'><a href = 'https://www.theodysseyonline.com/magicians-scientist'>Read More</a></span>...</p>
-      <hr>
-      <a class = 'news' href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'><h2>What Exactly Is Brain Freeze And How Do I Make It Stop?</h2></a>
-      <p class = 'news_snippets'>It happens to just about everyone: you take a delicious first lick from your ice cream or long sip of a cold slushie, and then bam - your head begins to pound, or pain radiates all through your skull. The pain continues as you shut your eyes and wince, and then it subsides, letting you to go back to enjoying your cold treat again...<span class='show-more'><a href = 'http://www.huffingtonpost.com/entry/what-exactly-is-brain-freeze-and-how-do-i-make-it-stop_us_596d0ff6e4b07f87578e6b10?utm_hp_ref=brain'>Read More</a></span>...</p>
-      <hr>
-      <a class = 'news' href = 'https://www.forbes.com/sites/daviddisalvo/2016/01/30/study-your-brains-capacity-is-10-times-greater-than-previously-thought/#3e880341528e'><h2>Your Brain's Capacity Is 10 Times Greater Than Previously Thought</h2></a>
-        <p class = 'news_snippets'>All of us are walking around with the capacity of the entire internet in our skulls, according to a recent study on neural computing power. That's about ten times the capacity previously thought to be the brain's upper limit...<span class = 'show-more'><a href = 'https://www.forbes.com/sites/daviddisalvo/2016/01/30/study-your-brains-capacity-is-10-times-greater-than-previously-thought/#3e880341528e'>Read More</a></span>...</p>
-      <hr>
-      <a class = 'news' href = 'http://neurosciencenews.com/order-certinty-orbiotofrontal-cortex-7043/'><h2>Changes In Brain Regions May Explain Why Some Prefer Certainty And Order</h2></a>
-      <p class = 'news_snippets'>Why do some people prefer stable, predictable lives while others prefer frequent changes? Why do some people make rational decisions and others, impulsive and reckless ones? UCLA behavioral neuroscientists have identified changes in two brain regions that may hold answers to these questions...<span class = 'show-more'><a href = 'http://neurosciencenews.com/order-certinty-orbiotofrontal-cortex-7043/'>Read More</a></span>...</p>
-      <hr>
-      <a class = 'news' href = 'https://www.newscientist.com/article/2141467-your-eardrums-move-in-sync-with-your-eyes-but-we-dont-know-why/'><h2>Your Eardrums Move In Sync With Your Eyes But We Don't Know Why</h2></a>
-      <p class = 'news_snippets'>See, hear. Our eardrums appear to move to shift our hearing in the same direction as our eyes are looking. Why this happens is unclear, but it may help us work out which objects we see are responsible for the sounds we can hear...<span class = 'show-more'><a href ='https://www.newscientist.com/article/2141467-your-eardrums-move-in-sync-with-your-eyes-but-we-dont-know-why/'>Read More</a></span>...</p>
-      <hr>
-    </div>"""),
+    PagePost ("NEWS", ""),
     PagePost ("ABOUT THE CREATORS", "This is about us."),
     PagePost ("REFERENCES", """
 <!DOCTYPE html>
 <html>
 <head>
-
 <body>
-<br><div>Citations</div>
 <link rel = 'stylesheet' href = 'resources/Brain.css'>
 <meta charset="UTF-8">
 <title>Information</title>
@@ -176,7 +158,11 @@ style="width:250px;height:270px;">
 <div id="intro">
    <div class="story">
       <div class="float-left">
-
+      <h1 style=text-align:center >References</h1>
+       <h1 class= "reference_text" > BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.
+       Cognitive <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.
+       <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.
+</h1>
       </div>
    </div>
    <!--.story-->
@@ -186,8 +172,8 @@ style="width:250px;height:270px;">
    <div class="story">
       <div class="bg"></div>
       <div class="float-right">
-         <h2>References</h2>
-         <p>BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.
+         <h2 class= "reference_text" >References</h2>
+         <p id="help" class= "reference_text" >BrainStem Images." Google Search. Google, n.d. Web. 24 July 2017.
          Cognitive Skills of the Brain." Brain Injury Alliance of Utah. N.p., n.d. Web. 24 July 2017.
          Temporal Lob Images. Center For NeuroSkills, n.d. Web. 24 July 2017.
 </p>
@@ -200,9 +186,9 @@ style="width:250px;height:270px;">
 <div id="third">
    <div class="story">
       <div class="float-left">
-         <h2>Why is The Brain So Amazing?</h2>
-         <p>Your brain contains about 100</p><br>
-         <p>billion microscopic cells </p>
+         <h2 class="reference_text">Why is The Brain So Amazing?</h2>
+         <p class= 'reference_text'>Your brain contains about 100</p><br>
+         <p class='reference_text'>billion microscopic cells </p>
       </div>
    </div>
    <!--.story-->

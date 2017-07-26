@@ -56,7 +56,7 @@ class PostHandler(webapp2.RequestHandler):
         self.sendResponse(None)
 
     def post(self):
-        self.sendResponse(page_id, self.request.get("comment"))
+        self.sendResponse(self.request.get("comment"))
 
     def sendResponse(self, new_comment):
         # This creates and serves the blog post page
@@ -99,6 +99,7 @@ class AdminHandler(webapp2.RequestHandler):
         news_link = self.request.get("news_link")
         new_news_entry = NewsPost(news_title, news_preview, news_link)
         new_news_entry.store()
+        self.response.out.write( "Thank you. You have submitted a new news article." )
 
 
 app = webapp2.WSGIApplication([
