@@ -1,3 +1,18 @@
+/* div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 10px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+/*}
+/*
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+*/
+
 a{
  color:white;
 
@@ -36,6 +51,11 @@ a.news{
 
 
 }
+textarea {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+}
 .show-more{
   text-decoration: none;
 }
@@ -50,13 +70,9 @@ p{
   font-size: 20px;
   color: black;
 }
-#homepage{
-  background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
-}
 body{
   background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
 }
-
 #area2:hover {
   opacity: 0.2;
 }
@@ -65,12 +81,17 @@ body{
   width: 100%;
 }
 
-
+.comment_style{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size-adjust:0.40;
+  font-weight:700;
+  font-style:normal;
+}
 
 body{
-        margin: 0;
+        margin: 40px;
         min-width: 980px;
-        padding: 0;
+        padding: 10px;
 }
 
 p{
@@ -99,7 +120,6 @@ h2{
         font-weight:500;
         font-style:normal;
 }
-
 #header h1, #pixels{
         color: #48941A;
 }
@@ -125,7 +145,11 @@ h2{
         position: fixed;
         right: 20px;
 }
-
+#navigation_bar{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style:normal;
+  font-size: 20px;
+}
 #nav li{
         margin: 0 0 15px 0;
 }
@@ -139,13 +163,13 @@ h2{
 		background-size: cover;
         color: white;
         height: 600px;
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         width: 100%;
 }
 
 #second{
-        background: url("https://images-na.ssl-images-amazon.com/images/I/91ONEZnZWDL.png") 50% 0 no-repeat fixed;
+        background: url("http://sss.ysmu.info/wp-content/uploads/2015/08/neurons-fly-through_3d_model_max_c3082c11-d777-43dc-afd2-7172f7ffb249.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
         height: 1300px;
@@ -153,6 +177,7 @@ h2{
         overflow: hidden;
         padding: 0;
         width: 100%;
+        opacity: 0.2;
 }
 
 #second .bg{
@@ -165,10 +190,11 @@ h2{
         max-width: 1900px;
 		width: 100%;
         overflow: hidden;
+        opacity: 0.8;
 }
 
 #third{
-        background: url("http://2.bp.blogspot.com/-pN-7EyENcVs/TuJFLimHYeI/AAAAAAAAABg/fDRXDgbO6JE/s1600/3d+brain.png") 50% 0 no-repeat fixed;
+        background: url("http://www.ziptrials.us/wp-content/uploads/2013/03/Neurons.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: black;
         height: 650px;
@@ -177,14 +203,44 @@ h2{
         overflow: hidden;
         padding: 0;
 }
-
 #fifth{
         background: #ccc;
         height: 400px;
         margin: 0 auto;
         padding: 40px 0 0 0;
 }
+textarea {
+    width: 25%;
+    height: 150px;
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid purple;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+input[type=text] {
+    width: 25%;
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid purple;
+    border-radius: 6px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+/*
 .story{
         margin: 0 auto;
         min-width: 980px;
@@ -196,4 +252,4 @@ h2{
         padding: 100px 0 0 0;
         position: relative;
         width: 350px;
-}
+}*/

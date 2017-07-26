@@ -15,6 +15,29 @@ function callAction(area) {
 }
 */
 // pill.js: Methods for handling pill requests
+counter = function() {
+    var value = $('#text').val();
+
+    if (value.length == 0) {
+        $('#wordCount').html(0);
+        return;
+    }
+
+    var regex = /\s+/gi;
+    var wordCount = value.trim().replace(regex, ' ').split(' ').length;
+
+    $('#wordCount').html(wordCount);
+};
+
+$(document).ready(function() {
+    $('#count').click(counter);
+    $('#text').change(counter);
+    $('#text').keydown(counter);
+    $('#text').keypress(counter);
+    $('#text').keyup(counter);
+    $('#text').blur(counter);
+    $('#text').focus(counter);
+});
 function setupHandlers(){
   $('#temporal_lobe').click(sendTemp);
   $('#frontal_lobe').click(sendFront);
