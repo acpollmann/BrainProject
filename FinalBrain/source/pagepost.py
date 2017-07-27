@@ -172,7 +172,7 @@ table, th, td {
 </style>
 </head>
     <center><h1>Hi, we're the Brains behind the Brain Page!</h1></center>
-<img id="borderimg" src="https://lh3.google.com/u/0/d/0B1CrDg8k4v3OeDBKVnZ4MlRlcXc=w2880-h1564-iv2" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
+<img id="borderimg" src="resources/students.jpg" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
 <body class="color">
 <center><table>
   <tr>
