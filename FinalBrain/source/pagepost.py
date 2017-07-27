@@ -181,10 +181,11 @@ table, th, td {
     <th>ROBERT ROSS</th>
   </tr>
   <tr>
-    <td>School:
-    Major:
-    Short-Bio/Goals:
+    <td>School: Georgia Tech
+    Major: Computer Science
+    Goals: Get involved in research and internships.
     </td>
+
     <td>School:Georgia State University<br>
     Major:Neuroscience Minor:Computer Science & French<br>
     Goals:I plan on expanding my Non-Profit Organization;<br>
@@ -192,7 +193,7 @@ table, th, td {
     group of students involved.<br>
     As I enter my colege career , my goal is to get involved<br>
     on campus , and spread my time between volunteer work and school.<br>
-    
+
     </td>
     <td>School:
     Major:
