@@ -172,7 +172,7 @@ table, th, td {
 </style>
 </head>
     <center><h1>Hi, we're the Brains behind the Brain Page!</h1></center>
-<img id="borderimg" src="resources/students.jpg" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
+<img id="borderimg" style = "width: 1250px;" src="resources/students.jpg" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
 <body class="color">
 <center><table>
   <tr>
@@ -181,17 +181,33 @@ table, th, td {
     <th>ROBERT ROSS</th>
   </tr>
   <tr>
-    <td>School: Georgia Tech
-    Major: Computer Science
-    Goals: Get involved in research and internships. 
-    </td>
-    <td>School:Georgia State University<br>
-    Major:Neuroscience<br>
-    Minor:Computer Science & French
-    Short-Bio/Goals:</td>
-    <td>School: Stanford University<br>
+    <td style = "width:250px; padding: 50px">School: Georgia Tech<br>
+    <br>
     Major: Computer Science<br>
-    Goals:Become a Software Engineer at Google</td>
+    <br>
+    Minor: TBD<br>
+    <br>
+    Goals: Amy plans to get involved in research at Tech while staying involved in extracurricular service and sports. She hopes to gain more exposure in computer science outside of the classroom, and come back to Google for Engineering Practicum.
+
+    </td>
+    <td style = "width:250px; padding: 50px">School: Georgia State University<br>
+    <br>
+    Major: Neuroscience<br>
+    <br>
+    Minor: Computer Science & French<br>
+    <br>
+    Goals: Aryonne plans on expanding her Non-Profit Organization;
+    A Link 2 Your Success, and spreading her time between volunteer work and school.
+    As Aryonne strengthens her computer skills, her goal is to get accepted into
+    Google's Engineering Practicum Program and learn more.
+    </td>
+    <td style = "width:250px; padding: 50px">School: Stanford University<br>
+    <br>
+    Major: Computer Science<br>
+    <br>
+    Minor: Pure Mathematics<br>
+    <br>
+    Goals: Robert plans on researching in areas such as machine learning and artificial intelligence. Robert hopes to partake in various clubs to expand his computer science knowledge and to gain acceptance into Google's Engineering Practicum Internship</td>
   </tr>
 
 </table>
