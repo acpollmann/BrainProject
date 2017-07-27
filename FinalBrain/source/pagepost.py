@@ -185,13 +185,13 @@ table, th, td {
     Major:
     Short-Bio/Goals:
     </td>
-    <td>School:Georgia State University
-    Major:Neuroscience
+    <td>School:Georgia State University<br>
+    Major:Neuroscience<br>
     Minor:Computer Science & French
     Short-Bio/Goals:</td>
-    <td>School: Stanford University
-    Major: Computer Science
-    Short-Bio/Goals:Become a Software Engineer at Google</td>
+    <td>School: Stanford University<br>
+    Major: Computer Science<br>
+    Goals:Become a Software Engineer at Google</td>
   </tr>
 
 </table>
