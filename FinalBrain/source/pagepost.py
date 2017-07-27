@@ -181,9 +181,9 @@ table, th, td {
     <th>ROBERT ROSS</th>
   </tr>
   <tr>
-    <td>School:
-    Major:
-    Short-Bio/Goals:
+    <td>School: Georgia Tech
+    Major: Computer Science
+    Goals: Get involved in research and internships. 
     </td>
     <td>School:Georgia State University
     Major:Neuroscience
