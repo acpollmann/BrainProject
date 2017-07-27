@@ -80,6 +80,9 @@ body{
   position: absolute;
   width: 100%;
 }
+.color{
+  background: linear-gradient(to bottom, #ffcccc 0%, #993366 100%);
+}
 
 .comment_style{
   font-family: 'Open Sans Condensed', sans-serif;

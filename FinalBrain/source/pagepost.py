@@ -145,7 +145,43 @@ style="width:250px;height:270px;">
 </html>
 """),
     PagePost ("NEWS", ""),
-    PagePost ("ABOUT THE CREATORS", "This is about us."),
+    PagePost ("ABOUT THE CREATORS", """
+<head>
+<style>
+table, th, td {
+    border: 2px solid white;
+}
+</style>
+</head>
+    <center><h1>Hi, we're the Brains behind the Brain Page!</h1></center>
+<img src="https://lh3.google.com/u/0/d/0B1CrDg8k4v3OeDBKVnZ4MlRlcXc=w2880-h1564-iv2" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
+<body class="color">
+<center><table>
+  <tr>
+    <th>AMY POLLMANN</th>
+    <th>ARYONNE LINK</th>
+    <th>ROBERT ROSS</th>
+  </tr>
+  <tr>
+    <td>School:
+    Major:
+    Short-Bio/Goals:
+    </td>
+    <td>School:Georgia State University
+    Major:Neuroscience
+    Minor:Computer Science & French
+    Short-Bio/Goals:</td>
+    <td>School:
+    Major:
+    Short-Bio/Goals:</td>
+  </tr>
+
+</table>
+</center>
+</body>
+
+
+    """),
     PagePost ("REFERENCES", """
 <!DOCTYPE html>
 <html>
