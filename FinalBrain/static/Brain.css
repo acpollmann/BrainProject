@@ -170,9 +170,7 @@ h2{
         padding: 0;
         width: 100%;
 }
-<<<<<<< HEAD
 
-=======
 #borderimg {
     border: 30px solid transparent;
     padding: 15px;
@@ -180,7 +178,7 @@ h2{
     -o-border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round; /* Opera 11-12.1 */
     border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round;
 }
->>>>>>> 52a7ca8baaa386d0c6898707673df58e19b0b012
+
 /*
 #second{
         background: url("http://sss.ysmu.info/wp-content/uploads/2015/08/neurons-fly-through_3d_model_max_c3082c11-d777-43dc-afd2-7172f7ffb249.jpg") 50% 0 no-repeat fixed;
