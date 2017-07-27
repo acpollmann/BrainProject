@@ -162,25 +162,25 @@ h2{
 }
 
 #intro{
-        background:url("https://cdn-images-1.medium.com/max/1240/1*5OA_mP3k0CepwXGnkpUt_g.jpeg") 50% 0 no-repeat fixed;
+        background:url("http://www.ziptrials.us/wp-content/uploads/2013/03/Neurons.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
-        height: 600px;
+        height: 800px;
         margin: 0;
         padding: 0;
         width: 100%;
 }
-
+/*
 #second{
         background: url("http://sss.ysmu.info/wp-content/uploads/2015/08/neurons-fly-through_3d_model_max_c3082c11-d777-43dc-afd2-7172f7ffb249.jpg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: white;
-        height: 1300px;
+        height: 600px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
         width: 100%;
-        opacity: 0.2;
+        opacity: 1.0;
 }
 
 #second .bg{
@@ -197,7 +197,7 @@ h2{
 }
 
 #third{
-        background: url("http://www.ziptrials.us/wp-content/uploads/2013/03/Neurons.jpg") 50% 0 no-repeat fixed;
+        background: url("https://cdn-images-1.medium.com/max/1240/1*5OA_mP3k0CepwXGnkpUt_g.jpeg") 50% 0 no-repeat fixed;
 		background-size: cover;
         color: black;
         height: 650px;
@@ -212,6 +212,7 @@ h2{
         margin: 0 auto;
         padding: 40px 0 0 0;
 }
+*/
 textarea {
     width: 25%;
     height: 150px;
@@ -242,7 +243,159 @@ input[type=text] {
 input[type=text]:focus {
     width: 50%;
 }
+#temporal_lobe:hover{
 
+}
+#frontal_lobe:hover{
+
+}
+#parietal_lobe:hover{
+
+}
+#occipital_lobe:hover{
+
+}
+#spinal_cord:hover{
+
+}
+#cerebellum:hover{
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+#img__description {
+  position: absolute;
+  top: 520px;
+  bottom: 0;
+  left: 460px;
+  right: 0;
+  color: black;
+  font-size: 36px;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  /*transition: opacity .2s, visibility .2s;*/
+}
+
+.img__wrap:hover #img__description {
+  visibility: visible;
+  opacity: 1;
+}
+#img__description1 {
+    position: absolute;
+    top: 320px;
+    bottom: 0;
+    left: 180px;
+    right: 0;
+    color: black;
+    font-size: 36px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+  /*transition: opacity .2s, visibility .2s;*/
+  }
+
+.img__wrap1:hover #img__description1 {
+    visibility: visible;
+    opacity: 1;
+  }
+    #img__description2 {
+        position: absolute;
+        top: 320px;
+        bottom: 0;
+        left: 580px;
+        right: 0;
+        color: black;
+        font-size: 36px;
+        visibility: hidden;
+        opacity: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+
+      /*transition: opacity .2s, visibility .2s;*/
+      }
+
+.img__wrap2:hover #img__description2 {
+        visibility: visible;
+        opacity: 1;
+      }
+#img__description3{
+          position: absolute;
+          top: 600px;
+          bottom: 0;
+          left: 960px;
+          right: 0;
+          color: black;
+          font-size: 36px;
+          visibility: hidden;
+          opacity: 0;
+          padding: 0;
+          margin: 0;
+          border: 0;
+
+        /*transition: opacity .2s, visibility .2s;*/
+        }
+
+.img__wrap3:hover #img__description3 {
+          visibility: visible;
+          opacity: 1;
+        }
+
+
+
+#img__description4{
+            position: absolute;
+            top: 650px;
+            bottom: 0;
+            left: 640px;
+            right: 0;
+            color: black;
+            font-size: 36px;
+            visibility: hidden;
+            opacity: 0;
+            padding: 0;
+            margin: 0;
+            border: 0;
+
+          /*transition: opacity .2s, visibility .2s;*/
+          }
+.img__wrap4:hover #img__description4 {
+            visibility: visible;
+            opacity: 1;
+          }
+#img__description5{
+              position: absolute;
+              top: 750px;
+              bottom: 0;
+              left: 390px;
+              right: 0;
+              color: black;
+              font-size: 36px;
+              visibility: hidden;
+              opacity: 0;
+              padding: 0;
+              margin: 0;
+              border: 0;
+
+            /*transition: opacity .2s, visibility .2s;*/
+            }
+
+.img__wrap5:hover #img__description5 {
+              visibility: visible;
+              opacity: 1;
+            }
 /*
 .story{
         margin: 0 auto;
