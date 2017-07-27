@@ -27,7 +27,7 @@ def newsAsHTML():
     html_string = ""
     while (news_query.has_next()):
         news_item = news_query.next();
-        html_string += "<hr> <a class = 'news' href =\"" + news_item.news_link + "\"><h2>" + news_item.news_title + "</h2>" #</a><h2 style=color:white >" + news_item.news_title + "</h2>"
+        html_string += "<hr> <a class = 'news' href =\"" + news_item.news_link + "\"><h2>" + news_item.news_title + "</h2></a>" #</a><h2 style=color:white >" + news_item.news_title + "</h2>"
         html_string += " <p class= 'news_snippets' >" + news_item.news_preview + "</p>"
-        html_string += "<span class = 'show-more'> <a href=\"" + news_item.news_link + "\"> Read More...</a></span>"
+        html_string += "<p class='show-more'> <a href=\"" + news_item.news_link + "\"> Read More...</a></p>"
     return html_string

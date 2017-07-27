@@ -99,7 +99,10 @@ class AdminHandler(webapp2.RequestHandler):
         news_link = self.request.get("news_link")
         new_news_entry = NewsPost(news_title, news_preview, news_link)
         new_news_entry.store()
-        self.response.out.write( "Thank you. You have submitted a new news article." )
+        template = jinja_environment.get_template('templates/admin.html')
+        self.response.out.write(template.render())
+        self.response.out.write("You have submitted a new news article.")
+
 
 
 app = webapp2.WSGIApplication([
