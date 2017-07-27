@@ -16,11 +16,14 @@
   <a href="brain?page_id=3">MEET THE CREATORS</a> |
   <a href="brain?page_id=4">REFERENCES</a>
 </nav>
+<br><br>
 <div class = 'content'>
   {{content}}
 </div>
 
 <footer>
+  <br>
+  <hr>
   <form align='center'  method="post">
          <label class = 'comment_style' > Leave a Comment (100 words max.): </label> <br>
          <div id="border">
@@ -46,7 +49,7 @@
 
    window.location = "/admin";
   }else {
-   alert('You are not authorized')
+   alert('You are not authorized.')
    signOut();
   window.location = '/'
   }

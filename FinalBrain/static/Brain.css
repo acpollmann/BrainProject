@@ -33,7 +33,6 @@ footer{
     display: block;
 }
 
-
 hr{
   border-color: black;
 }
@@ -57,7 +56,10 @@ textarea {
     border: 0px;
 }
 .show-more{
-  text-decoration: none;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  padding-right: 60px;
 }
 h1{
   color:white;
@@ -73,9 +75,7 @@ p{
 body{
   background: linear-gradient(to bottom, #993399 0%, #ffff99 82%);
 }
-#area2:hover {
-  opacity: 0.2;
-}
+
 .center_in_page {
   position: absolute;
   width: 100%;
@@ -170,6 +170,9 @@ h2{
         padding: 0;
         width: 100%;
 }
+<<<<<<< HEAD
+
+=======
 #borderimg {
     border: 30px solid transparent;
     padding: 15px;
@@ -177,6 +180,7 @@ h2{
     -o-border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round; /* Opera 11-12.1 */
     border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round;
 }
+>>>>>>> 52a7ca8baaa386d0c6898707673df58e19b0b012
 /*
 #second{
         background: url("http://sss.ysmu.info/wp-content/uploads/2015/08/neurons-fly-through_3d_model_max_c3082c11-d777-43dc-afd2-7172f7ffb249.jpg") 50% 0 no-repeat fixed;
@@ -250,34 +254,24 @@ input[type=text] {
 input[type=text]:focus {
     width: 50%;
 }
-#temporal_lobe:hover{
 
-}
-#frontal_lobe:hover{
-
-}
-#parietal_lobe:hover{
-
-}
-#occipital_lobe:hover{
-
-}
-#spinal_cord:hover{
-
-}
-#cerebellum:hover{
-
-}
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+/*
+.story{
+        margin: 0 auto;
+        min-width: 980px;
+        overflow: auto;
+        width: 980px;
 }
 
+.story .float-left, .story .float-right{
+        padding: 100px 0 0 0;
+        position: relative;
+        width: 350px;
+}*/
 
 #img__description {
   position: absolute;
-  top: 520px;
+  top: 620px;
   bottom: 0;
   left: 460px;
   right: 0;
@@ -288,17 +282,19 @@ input[type=text]:focus {
   padding: 0;
   margin: 0;
   border: 0;
-
+  background: none;
+  background-color: red;
   /*transition: opacity .2s, visibility .2s;*/
 }
 
 .img__wrap:hover #img__description {
   visibility: visible;
   opacity: 1;
+  height:0px;
 }
 #img__description1 {
     position: absolute;
-    top: 320px;
+    top: 420px;
     bottom: 0;
     left: 180px;
     right: 0;
@@ -316,10 +312,11 @@ input[type=text]:focus {
 .img__wrap1:hover #img__description1 {
     visibility: visible;
     opacity: 1;
+    height:0px;
   }
     #img__description2 {
         position: absolute;
-        top: 320px;
+        top: 380px;
         bottom: 0;
         left: 580px;
         right: 0;
@@ -337,12 +334,13 @@ input[type=text]:focus {
 .img__wrap2:hover #img__description2 {
         visibility: visible;
         opacity: 1;
+        height:0px;
       }
 #img__description3{
           position: absolute;
-          top: 600px;
+          top: 650px;
           bottom: 0;
-          left: 960px;
+          left: 985px;
           right: 0;
           color: black;
           font-size: 36px;
@@ -358,13 +356,14 @@ input[type=text]:focus {
 .img__wrap3:hover #img__description3 {
           visibility: visible;
           opacity: 1;
+          height:0px;
         }
 
 
 
 #img__description4{
             position: absolute;
-            top: 650px;
+            top: 750px;
             bottom: 0;
             left: 640px;
             right: 0;
@@ -381,10 +380,11 @@ input[type=text]:focus {
 .img__wrap4:hover #img__description4 {
             visibility: visible;
             opacity: 1;
+            height:0px;
           }
 #img__description5{
               position: absolute;
-              top: 750px;
+              top: 850px;
               bottom: 0;
               left: 390px;
               right: 0;
@@ -402,17 +402,9 @@ input[type=text]:focus {
 .img__wrap5:hover #img__description5 {
               visibility: visible;
               opacity: 1;
+              height:0px;
             }
-/*
-.story{
-        margin: 0 auto;
-        min-width: 980px;
-        overflow: auto;
-        width: 980px;
-}
 
-.story .float-left, .story .float-right{
-        padding: 100px 0 0 0;
-        position: relative;
-        width: 350px;
-}*/
+.cursor{
+  cursor:pointer;
+}

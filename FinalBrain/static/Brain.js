@@ -40,11 +40,17 @@ $(document).ready(function() {
 });
 function setupHandlers(){
   $('#temporal_lobe').click(sendTemp);
+  $('#img__description').click(sendTemp);
   $('#frontal_lobe').click(sendFront);
+  $('#img__description1').click(sendFront);
   $('#parietal_lobe').click(sendPar);
+  $('#img__description2').click(sendPar);
   $('#occipital_lobe').click(sendOcc);
+  $('#img__description3').click(sendOcc);
   $('#cerebellum').click(sendCere);
+  $('#img__description4').click(sendCere);
   $('#spinal_cord').click(sendSpin);
+  $('#img__description5').click(sendSpin);
 }
 
 function sendTemp(){
