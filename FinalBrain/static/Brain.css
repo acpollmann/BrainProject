@@ -120,8 +120,13 @@ h1, #pixels{
 h2{
         font-family: 'Open Sans Condensed', sans-serif;
         font-size-adjust:0.531;
-        font-weight:500;
         font-style:normal;
+}
+h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size-adjust:0.531;
+  font-weight:500;
+  font-style:normal;
 }
 #header h1, #pixels{
         color: #48941A;

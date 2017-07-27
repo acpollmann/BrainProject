@@ -35,8 +35,7 @@ class PagePost():
 
 
 page_list = [
-    PagePost ("HOME", """<body id="homepage" ><h4 style="color:White">Whether you're studying Psychology or Medicine, this site will inform you about parts of the brain.
-    Learning and remembering parts of the brain can be tricky. Enjoy this interactive digital brain map! Use it to your studying advantages!</h4>
+    PagePost ("HOME", """<body id="homepage" ><hr><h4 style="color:White"> Click on the different parts of the brain to learn more about their functions. <br><br></h4>
 
 
     <img src="resources/brainclipart.svg.png" alt="" usemap="#Map" />
@@ -44,12 +43,12 @@ page_list = [
 
 
       <p id= "explanation" >The brain is one of the largest and most complex organs in the human body. It is made up of more than 100 billion nerves that communicate in trillions of connections called synapses. The brain is made up of many specialized areas that work together: The cortex is the outermost layer of brain cells.</p>
-      <p id = 'temporal' style = 'display: none;'>The Temporal Lobe mainly revolves around hearing and selective listening. It receives sensory information such as sounds and speech from the ears. It is also key to being able to comprehend, or understand meaningful speech. In fact, we would not be able to understand someone talking to us, if it wasn't for the temporal lobe. This lobe is special because it makes sense of the all the different sounds and pitches (different types of sound) being transmitted from the sensory receptors of the ears.</p>
-    <p id = 'frontal' style = 'display: none;'>You use your frontal lobe nearly everyday. You use it to make decisions, such as what to eat or drink for breakfast in the morning, as well as for thinking or studying for a test. The frontal lobe is also where our personality is formed and where we can carry out higher mental processes such as planning. In addition, the frontal lobe is necessary to being able to speak fluently (without fault) and meaningfully.</p>
-    <p id = 'parietal' style = 'display: none;'>The parietal lobe carries out some very specific functions. As a part of the cortex, it has a lot of responsibilities and has to be able to process sensory information within seconds. The parietal lobe is where information such as taste, temperature and touch are integrated, or processed. Humans would not be able to to feel sensations of touch, if the parietal lobe was damaged.</p>
-    <p id = 'occipital' style = 'display: none;'>The occiptial lobe is important to being able to correctly understand what your eyes are seeing. These lobes have to be very fast to process the rapid information that our eyes are sending. Similar to how the temporal lobe makes sense of auditory information, the occipital lobe makes sense of visual information so that we are able to understand it. If our occipital lobe was impaired, or injured we would not be able to correctly process visual signals, thus visual confusion would result.</p>
-    <p id = 'cereb' style = 'display: none;'>The cerebellum is one of the most identifiable parts of the brain due to its unique shape and location. It is extremely important for being able to perform everyday voluntary (done with purpose and intent) tasks such as walking and writing. It is also essential to being able to stay balanced and upright. Patients who have suffered from damaged cerebellums often struggle with keeping their balance and maintaining proper muscle coordination.</p>
-    <p id = 'spinal' style = 'display: none;'>The spinal cord is a complex cylinder of nerves that starts at the base of your brain and runs down the vertebral canal to the backbone. It is part of the body's collection of nerves, called the central nervous system, along with the brain. In each of the spinal cord's many segments lives a pair of roots that are made up of nerve fibers. These roots are referred to as the dorsal and the ventral.</p>
+      <p id = 'temporal' style = 'display: none;'>THE TEMPORAL LOBE<br><br>The Temporal Lobe mainly revolves around hearing and selective listening. It receives sensory information such as sounds and speech from the ears. It is also key to being able to comprehend, or understand meaningful speech. In fact, we would not be able to understand someone talking to us, if it wasn't for the temporal lobe. This lobe is special because it makes sense of the all the different sounds and pitches (different types of sound) being transmitted from the sensory receptors of the ears.</p>
+    <p id = 'frontal' style = 'display: none;'>THE FRONTAL LOBE<br><br>You use your frontal lobe nearly everyday. You use it to make decisions, such as what to eat or drink for breakfast in the morning, as well as for thinking or studying for a test. The frontal lobe is also where our personality is formed and where we can carry out higher mental processes such as planning. In addition, the frontal lobe is necessary to being able to speak fluently (without fault) and meaningfully.</p>
+    <p id = 'parietal' style = 'display: none;'>THE PARIETAL LOBE<br><br>The parietal lobe carries out some very specific functions. As a part of the cortex, it has a lot of responsibilities and has to be able to process sensory information within seconds. The parietal lobe is where information such as taste, temperature and touch are integrated, or processed. Humans would not be able to to feel sensations of touch, if the parietal lobe was damaged.</p>
+    <p id = 'occipital' style = 'display: none;'>THE OCCIPITAL LOBE<br><br>The occiptial lobe is important to being able to correctly understand what your eyes are seeing. These lobes have to be very fast to process the rapid information that our eyes are sending. Similar to how the temporal lobe makes sense of auditory information, the occipital lobe makes sense of visual information so that we are able to understand it. If our occipital lobe was impaired, or injured we would not be able to correctly process visual signals, thus visual confusion would result.</p>
+    <p id = 'cereb' style = 'display: none;'>THE CEREBELLUM<br><br>The cerebellum is one of the most identifiable parts of the brain due to its unique shape and location. It is extremely important for being able to perform everyday voluntary (done with purpose and intent) tasks such as walking and writing. It is also essential to being able to stay balanced and upright. Patients who have suffered from damaged cerebellums often struggle with keeping their balance and maintaining proper muscle coordination.</p>
+    <p id = 'spinal' style = 'display: none;'>THE SPINAL CORD<br><br>The spinal cord is a complex cylinder of nerves that starts at the base of your brain and runs down the vertebral canal to the backbone. It is part of the body's collection of nerves, called the central nervous system, along with the brain. In each of the spinal cord's many segments lives a pair of roots that are made up of nerve fibers. These roots are referred to as the dorsal and the ventral.</p>
     </div>
     <map name="Map" id="Map">
     <div class="img__wrap">
@@ -76,7 +75,7 @@ page_list = [
         <area class = 'mapping' id = 'spinal_cord' alt="" title="" href="#" shape="poly" coords="509,573,528,610,552,622,566,633,581,648,602,672,620,695,656,677,658,673,644,658,641,653,619,643,602,635,585,624,574,617,561,614,551,604,545,583,542,572,538,564,536,562,535,560" />
         <h2 class = "cursor" id="img__description5">SPINAL CORD</h2>
       </div>
-    </map></body><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"""),
+    </map></body><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"""),
     PagePost ("INFO", """
 <!DOCTYPE html>
 <html>
@@ -86,6 +85,7 @@ page_list = [
 <title>Information</title>
 </head>
 <body>
+<hr>
 <div style="background-color:CornflowerBlue; overflow:auto;">
 <br>
 <center><h2 style="color:DeepPink">Cerebellum</h2>
@@ -171,8 +171,9 @@ table, th, td {
 }
 </style>
 </head>
+<hr>
     <center><h1>Hi, we're the Brains behind the Brain Page!</h1></center>
-<img id="borderimg" src="resources/students.jpg" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
+<img id="borderimg" style = "width: 1250px;" src="resources/students.jpg" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
 <body class="color">
 <center><table>
   <tr>
@@ -181,17 +182,33 @@ table, th, td {
     <th>ROBERT ROSS</th>
   </tr>
   <tr>
-    <td>School: Georgia Tech
-    Major: Computer Science
-    Goals: Get involved in research and internships. 
+    <td style = "width:250px; padding: 50px">School: Georgia Tech<br>
+    <br>
+    Major: Computer Science<br>
+    <br>
+    Minor: TBD<br>
+    <br>
+    Goals: Amy plans to get involved in research at Tech while staying involved in extracurricular service and sports. She hopes to gain more exposure in computer science outside of the classroom, and come back to Google for Engineering Practicum.
+
     </td>
-    <td>School:Georgia State University
-    Major:Neuroscience
-    Minor:Computer Science & French
-    Short-Bio/Goals:</td>
-    <td>School:
-    Major:
-    Short-Bio/Goals:</td>
+    <td style = "width:250px; padding: 50px">School: Georgia State University<br>
+    <br>
+    Major: Neuroscience<br>
+    <br>
+    Minor: Computer Science & French<br>
+    <br>
+    Goals: Aryonne plans on expanding her Non-Profit Organization;
+    A Link 2 Your Success, and spreading her time between volunteer work and school.
+    As Aryonne strengthens her computer skills, her goal is to get accepted into
+    Google's Engineering Practicum Program and learn more.
+    </td>
+    <td style = "width:250px; padding: 50px">School: Stanford University<br>
+    <br>
+    Major: Computer Science<br>
+    <br>
+    Minor: Pure Mathematics<br>
+    <br>
+    Goals: Robert plans on researching in areas such as machine learning and artificial intelligence. Robert hopes to partake in various clubs to expand his computer science knowledge and to gain acceptance into Google's Engineering Practicum Internship</td>
   </tr>
 
 </table>
@@ -209,6 +226,7 @@ table, th, td {
 <meta charset="UTF-8">
 <title>Information</title>
 </head>
+<hr>
 <div id="intro">
    <div class="story">
       <div class="float-left">
