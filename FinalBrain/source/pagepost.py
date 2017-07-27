@@ -189,9 +189,9 @@ table, th, td {
     Major:Neuroscience
     Minor:Computer Science & French
     Short-Bio/Goals:</td>
-    <td>School: Stanford University
-    Major: Computer Science
-    Short-Bio/Goals:Become a Software Engineer at Google</td>
+    <td>School:
+    Major:
+    Short-Bio/Goals:</td>
   </tr>
 
 </table>
