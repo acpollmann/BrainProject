@@ -158,12 +158,12 @@ it vulnerable to damage during trauma.</p>
 <head>
 <style>
 table, th, td {
-    border: 2px solid white;
+    border: 4px solid Blue;
 }
 </style>
 </head>
     <center><h1>Hi, we're the Brains behind the Brain Page!</h1></center>
-<img src="https://lh3.google.com/u/0/d/0B1CrDg8k4v3OeDBKVnZ4MlRlcXc=w2880-h1564-iv2" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
+<img id="borderimg" src="https://lh3.google.com/u/0/d/0B1CrDg8k4v3OeDBKVnZ4MlRlcXc=w2880-h1564-iv2" alt="Google CSSI Students" align="middle"style="width:100%;height:auto;">
 <body class="color">
 <center><table>
   <tr>

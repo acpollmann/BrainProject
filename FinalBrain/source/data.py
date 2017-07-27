@@ -4,11 +4,7 @@ from google.appengine.ext import ndb
 class Data(ndb.Model):
     brain_part = ndb.StringProperty()
     brain_description = ndb.StringProperty()
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 549271c89967db052ff3279475ee175f939f2367
+    
 class NewsData(ndb.Model):
     news_title = ndb.StringProperty()
     news_preview = ndb.StringProperty()

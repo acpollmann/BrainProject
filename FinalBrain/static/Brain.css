@@ -81,7 +81,7 @@ body{
   width: 100%;
 }
 .color{
-  background: linear-gradient(to bottom, #ffcccc 0%, #993366 100%);
+  background: linear-gradient(to bottom, #cc00cc 0%, #00ff99 100%);
 }
 
 .comment_style{
@@ -169,6 +169,13 @@ h2{
         margin: 0;
         padding: 0;
         width: 100%;
+}
+#borderimg {
+    border: 30px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round; /* Opera 11-12.1 */
+    border-image: url(https://68.media.tumblr.com/a98b3ef286adc0865665c5aa066b1ea0/tumblr_nld9z8tacm1t8sa2ao1_500.gif) 30 round;
 }
 /*
 #second{
