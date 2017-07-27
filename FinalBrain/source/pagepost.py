@@ -185,10 +185,15 @@ table, th, td {
     Major:
     Short-Bio/Goals:
     </td>
-    <td>School:Georgia State University
-    Major:Neuroscience
-    Minor:Computer Science & French
-    Short-Bio/Goals:</td>
+    <td>School:Georgia State University<br>
+    Major:Neuroscience Minor:Computer Science & French<br>
+    Goals:I plan on expanding my Non-Profit Organization;<br>
+    A Link 2 Your Success and promote it more to get a diverse <br>
+    group of students involved.<br>
+    As I enter my colege career , my goal is to get involved<br>
+    on campus , and spread my time between volunteer work and school.<br>
+    
+    </td>
     <td>School:
     Major:
     Short-Bio/Goals:</td>
